@@ -1,10 +1,12 @@
 import React from "react";
+import "./cardList.style.css";
+import Card from "../card/Card";
 
 export default function CardList({ filteredMonsters }) {
   return (
-    <div>
+    <div className="card--container">
       {filteredMonsters.map((monster) => {
-        return <h1>{monster.name}</h1>;
+        return <Card monster={monster} key={monster.id} />;
       })}
     </div>
   );
