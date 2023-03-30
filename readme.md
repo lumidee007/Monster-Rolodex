@@ -1,4 +1,4 @@
-## Monster Molodox React App
+## Monster Rolodex React App
 
 ![Monster Rolodex](./public/img/monster-project.jpeg)
 
